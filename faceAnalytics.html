@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title> Face Analytics API </title>
+</head>
+<body>
+<h1 style="text-align:center"> Face Analytics API </h1>
+<h2 style="font-weight:bold"> Enter Image URL </h2>
+<input type="text" id="image_url"/>
+<br><br>
+<button id="analyze"> Analyse </button>
+<br>
+<h2> Analyzed Image </h2>
+<img height="300px" width="300px" style="border:1px solid black" id="analyzed_img"/>
+<br>
+<h2 style="font-weight:bold" > Attributes </h2>
+<h4>Age : <span id="face_age"></span></h4>
+<h4>Gender : <span id="face_gender"></span></h4>
+</body>
+<script type="text/javascript" src="faceAnalytics.js"></script>
+</html>
